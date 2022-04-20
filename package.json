@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "parcel src/index.html --port 80 --open",
-    "build": "parcel build src/index.html"
+    "build": "parcel build --public-url ./ src/index.html"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "2.4.1",
