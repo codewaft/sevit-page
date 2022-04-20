@@ -37,6 +37,7 @@ a {
 .container {
   max-width: 1140px;
   margin: auto;
+  padding: 0 10px;
 }
 
 #home {
@@ -77,6 +78,7 @@ a {
     margin-top: 116px;
     .home {
       width: 70%;
+      margin-right: 30px;
       .heading {
         font-size: 42px;
         font-weight: 500;
@@ -100,11 +102,11 @@ a {
           &.fill {
             background-color: var(--primary);
             color: #fff;
+            margin-right: 20px;
           }
           &.outline {
             border: 1px solid var(--primary);
             color: var(--primary);
-            margin-left: 20px;
           }
         }
       }
@@ -284,6 +286,45 @@ footer {
     a {
       color: var(--primary);
       text-decoration: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #home {
+    header {
+      .navbar {
+        display: none;
+      }
+    }
+    .row {
+      flex-direction: column;
+      align-items: flex-start;
+      .home {
+        margin-bottom: 20px;
+        margin-right: 0;
+        width: 100%;
+        .actions {
+          .button {
+            &.fill {
+              margin-bottom: 30px;
+            }
+          }
+        }
+      }
+      #message-preview {
+        width: calc(100% - 80px);
+      }
+    }
+  }
+  #features {
+    flex-direction: column-reverse;
+    .image {
+      width: 100%;
+    }
+    .content {
+      width: 100%;
+      margin-bottom: 50px;
     }
   }
 }
