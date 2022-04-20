@@ -1,11 +1,11 @@
 {
   "name": "sevit-page",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "renjithspace <renjithrajeevvk@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "serve": "parcel src/index.html --port 80 --open"
+    "serve": "parcel src/index.html --port 80 --open",
+    "build": "parcel build src/index.html"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "2.4.1",
