@@ -1,0 +1,13 @@
+{
+  "name": "sevit-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "renjithspace <renjithrajeevvk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "parcel src/index.html --port 80 --open"
+  },
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}
