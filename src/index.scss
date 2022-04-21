@@ -55,6 +55,9 @@ a {
         height: 28px;
         margin-left: 25px;
       }
+      .ph-button {
+        margin-left: 20px;
+      }
     }
     .navbar {
       ul {
@@ -294,6 +297,9 @@ footer {
   #home {
     header {
       .navbar {
+        display: none;
+      }
+      .ph-button {
         display: none;
       }
     }
