@@ -55,6 +55,9 @@ a {
         height: 28px;
         margin-left: 25px;
       }
+      .ph-button {
+        margin-left: 20px;
+      }
     }
     .navbar {
       ul {
@@ -286,6 +289,16 @@ footer {
     a {
       color: var(--primary);
       text-decoration: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #home {
+    header {
+      .ph-button {
+        display: none;
+      }
     }
   }
 }
