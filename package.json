@@ -2,18 +2,16 @@
   "name": "sevit-page",
   "version": "1.0.0",
   "author": "renjithspace <renjithrajeevvk@gmail.com>",
-  "engines": {
-    "node": "18.x"
-  },
   "license": "MIT",
   "scripts": {
-    "serve": "parcel src/index.html --port 80 --open",
-    "build": "parcel build --public-url ./ src/index.html"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "2.4.1",
-    "parcel": "^2.4.1",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "sass-embedded": "^1.89.2",
+    "vite": "^7.0.5"
   },
   "dependencies": {
     "jquery": "^3.6.0",
